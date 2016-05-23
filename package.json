@@ -1,0 +1,21 @@
+{
+    "name": "stock-guide-updater",
+    "version": "1.0.0",
+    "description": "Fetches stock data from the web and saves it to a Firebase db.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index"
+    },
+    "author": {
+        "email": "mark.nazareno@yahoo.com",
+        "name": "Mark Nazareno"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "latest",
+        "cron": "^1.1.0",
+        "firebase": "^3.0.2",
+        "request": "latest",
+        "tough-cookie-filestore": "sarkian/tough-cookie-filestore"
+    }
+}
